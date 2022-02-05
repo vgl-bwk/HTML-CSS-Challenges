@@ -1,6 +1,7 @@
 * {
   font-family: sans-serif;
   letter-spacing: 1px;
+  line-height: 1.875rem;
 }
 
 header {
@@ -85,7 +86,7 @@ footer {
   background: white;
 }
 #logo {
-  border-width: 0px;
+  border: none;
 }
 
 #badge {
@@ -95,19 +96,18 @@ footer {
   border-radius: 50%;
   display: inline-block;
   position: fixed;
-  bottom: 60%;
+  bottom: 78%;
   right: 20px;
 
   display: flex;
   justify-content: center;
   align-content: center;
   flex-direction: column;
+  transition: all 1s ease;
 }
 
 #badge:hover {
   background-color: yellow;
-  opacity: 0.6;
-  transition-delay: 0.3s;
 }
 
 #badge p {
